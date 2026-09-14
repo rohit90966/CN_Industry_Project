@@ -1,0 +1,46 @@
+dataset_root: ../data
+category: metal_nut
+
+image_size: 224
+backbone_name: resnet18
+
+memory_bank_size: 5000
+num_neighbors: 1
+
+validation_ratio: 0.20
+
+pixel_threshold_percentile: 99.0
+image_threshold_percentile: 99.0
+
+gaussian_kernel_size: 5
+
+morphology_kernel_size: 5
+morphology_connectivity: 8
+
+binary_mask_value: 255
+min_component_area: 80
+
+min_bbox_width: 5
+min_bbox_height: 5
+
+overlay_original_weight: 0.65
+overlay_heatmap_weight: 0.35
+
+bounding_box_line_thickness: 2
+label_font_scale: 0.5
+label_line_thickness: 1
+label_vertical_offset: 5
+label_min_y: 20
+
+visualization_rows: 1
+visualization_columns: 4
+visualization_figure_width: 16.0
+visualization_figure_height: 4.0
+visualization_dpi: 150
+
+colorbar_fraction: 0.046
+colorbar_padding: 0.04
+
+seed: 42
+
+output_root: ../output

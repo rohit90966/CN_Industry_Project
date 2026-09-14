@@ -1,0 +1,50 @@
+# Python environments, bytecode, test, and tool caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# JavaScript dependencies, Vite cache, and production bundles
+node_modules/
+.vite/
+dist/
+
+# Local configuration, runtime state, and logs
+.env
+.env.*
+!.env.example
+.runtime/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Application-generated inspection inputs and outputs
+backend/uploads/
+backend/results/
+backend/saved_models/
+
+# ML datasets, generated evaluation output, checkpoints, and model runs
+ai/data/
+ai/results/
+ai/output/
+ai/evaluation_results/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
