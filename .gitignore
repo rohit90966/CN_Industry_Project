@@ -29,15 +29,11 @@ dist/
 *.db
 
 # Application-generated inspection inputs and outputs
-backend/uploads/
-backend/results/
+
 backend/saved_models/
 
 # ML datasets, generated evaluation output, checkpoints, and model runs
 ai/data/
-ai/results/
-ai/output/
-ai/evaluation_results/
 *.ckpt
 *.pt
 *.pth

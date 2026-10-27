@@ -1,0 +1,11 @@
+PATCHCORE EVALUATION
+====================
+
+Accuracy  : 0.9478
+Precision : 0.9394
+Recall    : 1.0000
+F1 Score  : 0.9688
+ROC-AUC   : 0.9976
+
+Average inference time: 188.88 ms
+Images per second: 5.29
